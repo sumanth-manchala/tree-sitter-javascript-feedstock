@@ -12,7 +12,7 @@ source:
   sha256: 329b5414874f0588a98f1c291f1b28138286617aa907746ffe55adfdcf963f38
 
 build:
-  number: 0
+  number: 1
   # abi3 packages build once at python_min and ship one artifact per platform.
   skip: is_abi3 and not is_python_min
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
