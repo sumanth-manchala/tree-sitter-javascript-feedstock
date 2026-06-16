@@ -7,6 +7,7 @@ conda_build:
 conda_forge_output_validation: true
 provider:
   linux_aarch64: default
-  linux_ppc64le: default
   osx_arm64: default
+build_platform:
+  linux_ppc64le: linux_64
 test: native_and_emulated
